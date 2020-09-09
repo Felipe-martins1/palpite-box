@@ -1,6 +1,6 @@
 import React from './node_modules/react'
 import Link from './node_modules/next/link'
-
+//coment
 const Footer = () => {
     return (
         <div className='bg-gray-700 p-4'>
