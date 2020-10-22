@@ -8,6 +8,7 @@ const genCupom = () => {
     return code.substr(0, 4) + '-' + code.substr(4, 4) + '-' + code.substr(8, 4)
 }
 
+
 export default async (req, res) => {
     try {
         await doc.useServiceAccountAuth({
