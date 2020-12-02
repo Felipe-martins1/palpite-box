@@ -57,7 +57,7 @@ const Pesquisa = () => {
                 <label className=' font-bold text-lg'>Nota:</label>
                 <div className='flex py-2'>
                     {notas.map(nota => {
-                        return (<label className='block w-1/3 '>
+                        return (<label>
                             {nota}<br />
                             <input type='radio' name='Nota' value={nota} onChange={onChange} />
                         </label>
