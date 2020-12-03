@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/styles.css'
+import '../css/showcoupom.css'
 import Layout from '../components/Layout'
 
 
